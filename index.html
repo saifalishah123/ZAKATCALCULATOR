@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakat Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrape.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="banner">
+            <div class="row mt-5 mb-5">
+                <h1 class>ZAKAT CALCULATOR</h1>
+            </div>
+            <div class="row mt-5 d-flex justify-content-center ">
+                <div class="col-6 text-center "><button onclick="donate()"  class="donate-btn" value="donation">Donate Now</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="container cal">
+        <div class="cal-form-container">
+            <form action="">
+                <p>Total Cash in home and bank</p>
+                <input type="text" id="cash" placeholder="Cash in hand & in bank accounts">
+                <p>Total Worth of Gold</p>
+                <input type="text"  id="gold" placeholder="Value of Gold that you possess">
+                <p>Total Worth of Silver</p>
+                <input type="text" id="silver" placeholder="Value of Silver that you possess">
+                <button onclick="calculate(event)" class="calculate-btn">Calculate</button>
+            </form>
+            <div class="output">
+                <div class="total">
+                    <p>TOTAL NET WORTH</p>
+                    <h4>RS. 0</h4>
+                </div>
+                <div class="payable">
+                    <p>ZAKAT PAYABLE</p>
+                    <h4>RS. 0</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row"><p class="follow-me">COPYWRITE RESERVED BY SYED SAIF ALI SHAH</p></div>
+    </div>
+    <script src="app.js"></script>
+    <script src="bootstrape.js"></script>
+    <script src="https://kit.fontawesome.com/b4fc311639.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+
+
